@@ -2,17 +2,14 @@
 import "./App.css";
 // import ItemModal from "../ItemModal/ItemModal";
 import Header from "../Header/Header";
+import WeatherCard from "../WeatherCard/WeatherCard";
 
 function App() {
   return (
     <div>
       <Header />
-      <main>
-        <section className="weather" id="weather">
-          <div className="weather_info">75F</div>
-
-          <img src="images/Day/Sunny.png" className="weather_image" />
-        </section>
+      <main className="main">
+        <WeatherCard day={true} type="cloudy" />
         <section id="card-section">card Section</section>
       </main>
     </div>
