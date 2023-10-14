@@ -3,6 +3,7 @@ import "./App.css";
 // import ItemModal from "../ItemModal/ItemModal";
 import Header from "../Header/Header";
 import WeatherCard from "../WeatherCard/WeatherCard";
+// import "./src/index.js";
 
 function App() {
   return (
