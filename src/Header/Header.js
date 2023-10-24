@@ -19,7 +19,7 @@ const Header = ({ onCreateModal }) => {
         </div>
         <div>Pablo A. Tourn</div>
         <div>
-          <img src="/images/Avatar.png" alt="logo" />
+          <img src="../images/Avatar.png" alt="logo" />
         </div>
       </div>
     </header>
