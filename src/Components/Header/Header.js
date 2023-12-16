@@ -1,6 +1,6 @@
 import "./Header.css";
-import Logo from "../images/Logo.png";
-import Avatar from "../images/Avatar.png";
+import Logo from "../../images/Logo.png";
+import Avatar from "../../images/Avatar.png";
 
 const Header = ({ onCreateModal }) => {
   console.log("Header");

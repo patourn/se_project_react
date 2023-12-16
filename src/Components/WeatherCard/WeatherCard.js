@@ -2,38 +2,58 @@ import "./WeatherCard.css";
 
 const weatherOptions = [
   {
-    url: require("../images/day/cloudy.png").default,
+    url: require("../../images/day/cloudy.png").default,
     day: true,
     type: "cloudy",
   },
-  { url: require("../images/day/fog.png").default, day: true, type: "fog" },
-  { url: require("../images/day/rain.png").default, day: true, type: "rain" },
-  { url: require("../images/day/snow.png").default, day: true, type: "snow" },
-  { url: require("../images/day/storm.png").default, day: true, type: "storm" },
-  { url: require("../images/day/sunny.png").default, day: true, type: "sunny" },
+  { url: require("../../images/day/fog.png").default, day: true, type: "fog" },
   {
-    url: require("../images/night/cloudy.png").default,
+    url: require("../../images/day/rain.png").default,
+    day: true,
+    type: "rain",
+  },
+  {
+    url: require("../../images/day/snow.png").default,
+    day: true,
+    type: "snow",
+  },
+  {
+    url: require("../../images/day/storm.png").default,
+    day: true,
+    type: "storm",
+  },
+  {
+    url: require("../../images/day/sunny.png").default,
+    day: true,
+    type: "sunny",
+  },
+  {
+    url: require("../../images/night/cloudy.png").default,
     day: false,
     type: "cloudy",
   },
-  { url: require("../images/night/fog.png").default, day: false, type: "fog" },
   {
-    url: require("../images/night/rain.png").default,
+    url: require("../../images/night/fog.png").default,
+    day: false,
+    type: "fog",
+  },
+  {
+    url: require("../../images/night/rain.png").default,
     day: false,
     type: "rain",
   },
   {
-    url: require("../images/night/snow.png").default,
+    url: require("../../images/night/snow.png").default,
     day: false,
     type: "snow",
   },
   {
-    url: require("../images/night/storm.png").default,
+    url: require("../../images/night/storm.png").default,
     day: false,
     type: "storm",
   },
   {
-    url: require("../images/night/sunny.png").default,
+    url: require("../../images/night/sunny.png").default,
     day: false,
     type: "sunny",
   },
