@@ -4,8 +4,8 @@ const Footer = () => {
   console.log("footer");
   return (
     <footer className="footer">
-      <div>Developed by Practicum Students</div>
-      <div>2023</div>
+      <p>Developed by Practicum Students</p>
+      <p>2023</p>
     </footer>
   );
 };

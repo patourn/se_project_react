@@ -5,15 +5,41 @@
   left: 0;
   bottom: 0;
   display: flex;
+  /* direction: column; */
   justify-content: center;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.5);
+  /* direction: column; */
+  /* width: 496px;
+  height: 436px; */
+  font-family: sans-serif;
+  font-style: ;
 }
 
 .modal__content {
   background-color: white;
   max-width: 496px;
+  height: 436px;
   width: 100%;
   border-radius: 20px;
   padding: 34px 36px;
+  border-bottom: 0.4px solid rgba(84, 84, 84, 0.7);
+  display: block;
+  border: none;
+  direction: column;
+}
+
+.modal__button-add {
+  width: 124px;
+  height: 36px;
+  top: 557px;
+  left: 500px;
+  gap: 8px;
+  color: #000000 30%;
+  border-radius: 4px;
+}
+
+.modal__label {
+  display: flex;
+  flex-direction: column;
 }

@@ -1,6 +1,6 @@
 import "./Header.css";
-import Logo from "../../images/Logo.png";
-import Avatar from "../../images/Avatar.png";
+import logo from "../../images/logo.png";
+import avatar from "../../images/avatar.png";
 
 const Header = ({ onCreateModal }) => {
   console.log("Header");
@@ -9,9 +9,9 @@ const Header = ({ onCreateModal }) => {
     <header className="header">
       <div className="header__logo">
         <div>
-          <img src={Logo} alt="logo" />
+          <img src={logo} alt="logo" />
         </div>
-        <div>Date,Location</div>
+        <p>Date,Location</p>
       </div>
       <div className="header__avatar-logo">
         <div>
@@ -19,9 +19,9 @@ const Header = ({ onCreateModal }) => {
             Add New Clothes
           </button>
         </div>
-        <div>Pablo A. Tourn</div>
+        <p>Pablo A. Tourn</p>
         <div>
-          <img src={Avatar} alt="logo" />
+          <img src={avatar} alt="avatar" />
         </div>
       </div>
     </header>
